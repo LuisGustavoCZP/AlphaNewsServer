@@ -16,5 +16,14 @@
         "fonte": "G1",
         "imagem":"https://s2.glbimg.com/n7XcFJ7scKA27bVU6F8CHFyoc2g=/0x0:4000x2667/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/S/4/qPY70fRyWlOdZA6rkxWg/01-tres-dicas-para-subir-na-carreira-em-2020-1-tecnologia-2-.jpg",
         "link":"https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2022/07/15/sao-jose-tem-vagas-para-cursos-de-qualificacao-em-tecnologia-com-salarios-de-r-15-mil.ghtml"
+    },
+    {
+        "id":2,
+        "titulo":"Apps de cripto lideram em engajamento na América Latina",
+        "categoria": "Tecnologia",
+        "resumo": "Os aplicativos de finanças viram crescimento de 62% e lideram na média do tempo de utilização, afirma pesquisa feita pela Adjust, plataforma mundial de análise para mercado mobile",
+        "fonte": "Exame",
+        "imagem":"https://classic.exame.com/wp-content/uploads/2020/09/Aplicativos.jpg?quality=70&strip=info&w=1024",
+        "link":"https://exame.com/future-of-money/apps-de-cripto-lideram-em-engajamento-na-america-latina/"
     }
 ]
