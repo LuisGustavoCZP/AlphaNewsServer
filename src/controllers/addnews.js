@@ -1,4 +1,5 @@
 const { add } = require("../database");
+const { newsValidation } = require("../validators");
 
 function addnews (req, res) 
 {
@@ -11,26 +12,28 @@ function addnews (req, res)
     } 
     
     const validationErros = `${newsValidation(data)}`.split('|');
-    console.log(validationErros);
-    const errors = {};
+    
+    const errorTypes = {};
     validationErros.forEach((error => 
     {
         if(error) 
         {
             const [field, content] = error.split(":");
-            if(!errors[field]) errors[field] = [content];
-            else errors[field].push(content);
+            if(!errorTypes[field]) errorTypes[field] = [content];
+            else errorTypes[field].push(content);
         }
     }))
 
-    if(Object.keys(errors).length > 0) 
+    const errors = Object.entries(errorTypes);
+
+    if(errors.length > 0) 
     {
         res.status(400).json({messages:errors});
         return;
     }
 
     add(data);
-    res.json({message:"Deu certo!"});
+    res.json({message:null});
 }
 
 module.exports = addnews;
