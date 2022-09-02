@@ -10,7 +10,6 @@ function loadData ()
     }
     const fileText = fs.readFileSync(path);
     newsList = JSON.parse(fileText);
-    console.log(newsList);
 }
 
 
@@ -25,10 +24,7 @@ function add (data)
 {
     data.id = newsList.length;
     newsList.push(data);
-    fs.writeFile(path, JSON.stringify(newsList), () => 
-    {
-
-    });
+    fs.writeFile(path, JSON.stringify(newsList, null, 2), () => {});
 }
 
 loadData ();
