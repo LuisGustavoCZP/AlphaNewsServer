@@ -1,0 +1,29 @@
+[
+  {
+    "titulo": "7 softskills do profissional do futuro ideal",
+    "categoria": "Tecnologia",
+    "resumo": "O profissional do futuro ideal é um samurai do mundo corporativo. Mais que um simples técnico, ele é um ser humano portador de habilidades comportamentais diferenciadas. ",
+    "fonte": "Alpha",
+    "imagem": "https://static.wixstatic.com/media/45b1f1_6bbaabf5280c458f8bf110feef7fd186~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/45b1f1_6bbaabf5280c458f8bf110feef7fd186~mv2.jpg",
+    "link": "https://www.alphaedtech.org.br/post/profissional-do-futuro",
+    "id": 1
+  },
+  {
+    "titulo": "Como aumentar a produtividade pessoal: 3 dicas essenciais",
+    "categoria": "Produtividade",
+    "resumo": "Como aumentar a produtividade pessoal? A resposta parece óbvia, mas é importante fazermos uma análise sobre o tema.\n\n",
+    "fonte": "Alpha",
+    "imagem": "https://static.wixstatic.com/media/45b1f1_1c23a83b5b934c6b96c9e948676fbccc~mv2.jpg/v1/fill/w_740,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/45b1f1_1c23a83b5b934c6b96c9e948676fbccc~mv2.jpg",
+    "link": "https://www.alphaedtech.org.br/post/como-aumentar-a-produtividade-pessoal",
+    "id": 1
+  },
+  {
+    "titulo": "Cinco produções que retratam a tecnologia de uma forma diferente",
+    "categoria": "Entretenimento",
+    "resumo": "Produções como 'Black Mirror' e '3%' retratam a tecnologia de uma forma que não estamos acostumados",
+    "fonte": "blastingnews",
+    "imagem": "data:image/jpeg;base64,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",
+    "link": "https://br.blastingnews.com/tv-famosos/2022/08/video/cinco-producoes-que-retratam-a-tecnologia-de-uma-forma-diferente-005569590.html",
+    "id": 2
+  }
+]
