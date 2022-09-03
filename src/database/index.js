@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = __dirname+"/dados.json";
+const superPath = __dirname.replace(/(\\\w*){2}$/gi, '');
+console.log(superPath);
 
 function loadData ()
 {
@@ -11,7 +13,6 @@ function loadData ()
     const fileText = fs.readFileSync(path);
     newsList = JSON.parse(fileText);
 }
-
 
 let newsList = [];
 

@@ -1,5 +1,5 @@
-const { add } = require("../database");
-const { newsValidation } = require("../validators");
+const { add } = require("../../database");
+const { newsValidation } = require("../../validators");
 
 function addnews (req, res) 
 {

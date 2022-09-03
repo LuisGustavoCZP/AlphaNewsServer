@@ -1,4 +1,3 @@
-const list = require('./listnews');
-const add = require('./addnews');
+const newsController = require("./news");
 
-module.exports = {list, add}
+module.exports = { newsController };

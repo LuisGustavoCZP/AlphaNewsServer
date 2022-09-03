@@ -1,10 +1,7 @@
 const {Router} = require("express");
-const {list, add} = require("../controllers");
+const newsRoute = require("./news");
 
 const route = Router();
-route.get("/", list);
-route.post("/", add);
-
-
+route.use("/news", newsRoute);
 
 module.exports = route;

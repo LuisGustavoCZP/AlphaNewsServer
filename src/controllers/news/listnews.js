@@ -1,4 +1,4 @@
-const { list } = require("../database");
+const { list, add } = require("../database");
 
 function listNews (req, res)
 {
